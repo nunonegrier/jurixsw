@@ -1,1 +1,1 @@
-# jurixsw
+# jurix

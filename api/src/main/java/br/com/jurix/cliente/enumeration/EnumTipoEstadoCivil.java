@@ -1,0 +1,6 @@
+package br.com.jurix.cliente.enumeration;
+
+public enum EnumTipoEstadoCivil {
+
+    NAO_APLICAVEL, COMUNHAO_UNIVERSAL_BENS, COMUNHAO_PARCIAL_BENS, SEPARACAO_TOTAL_BENS, PARTICIPACAO_FINAL_AQUESTOS
+}

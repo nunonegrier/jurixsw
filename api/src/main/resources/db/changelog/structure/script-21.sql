@@ -1,0 +1,1 @@
+ALTER TABLE jurix.tb_andamento_processo ALTER COLUMN ap_descricao TYPE text;

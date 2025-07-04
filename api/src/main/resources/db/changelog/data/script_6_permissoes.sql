@@ -1,0 +1,21 @@
+
+insert into jurix.tb_permissao (pe_id,  pe_descricao, pe_nome) values
+(nextval('jurix.seq_permissao'), 'Permite visualizar cadastro de cliente', 'Cliente.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite editar cadastro de cliente', 'Cliente.Editar'),
+(nextval('jurix.seq_permissao'), 'Permite cadastro novos clientes', 'Cliente.Cadastrar'),
+(nextval('jurix.seq_permissao'), 'Permite visualizar os contratos do cliente', 'Cliente.Contrato.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite editar os contratos do cliente', 'Cliente.Contrato.Editar'),
+(nextval('jurix.seq_permissao'), 'Permite criar contratos para o cliente', 'Cliente.Contrato.Cadastrar'),
+(nextval('jurix.seq_permissao'), 'Permite visualizar processo', 'Processo.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite editar processo', 'Processo.Editar'),
+(nextval('jurix.seq_permissao'), 'Permite cadastrar processo', 'Processo.Cadastrar'),
+(nextval('jurix.seq_permissao'), 'Permite Criar andamento em um processo', 'Processo.Andamento.Criar'),
+(nextval('jurix.seq_permissao'), 'Permite Editar andamento em um processo', 'Processo.Andamento.Editar'),
+(nextval('jurix.seq_permissao'), 'Permite Visualizar a pauta', 'Pauta.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite Criar evento de pauta', 'Pauta.Criar'),
+(nextval('jurix.seq_permissao'), 'Permite Visualizar menu financeiro', 'Financeiro.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite visualizar relatorios', 'Relatorio.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite visualizar as configurações', 'Configuracoes.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite visualizar os colaboradores', 'Colaborador.Visualizar'),
+(nextval('jurix.seq_permissao'), 'Permite editar castro de colaborador', 'Colaborador.Editar'),
+(nextval('jurix.seq_permissao'), 'Permite criar novos colaboradores', 'Colaborador.Cadastrar');

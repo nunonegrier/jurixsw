@@ -1,0 +1,492 @@
+---
+databaseChangeLog:
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: schema.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: schema
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-1.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-1
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_1_estados.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_1_estados
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_2_municipios.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_2_municipios
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_3_usuario.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_3_usuario
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-2
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-3.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-3
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-4.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-4
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-5.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-5
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-6.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-6
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-7.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-7
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-8.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-8
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-9.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-9
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_6_permissoes.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_6_permissoes
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_7_permissoes2.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_7_permissoes2
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-10.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-10
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_8_base_andamento.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_8_base_andamento
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-11.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-11
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-12.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-12
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-13.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-13
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-14.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-14
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-15.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-15
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_9_permissoes.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_9_permissoes
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-16.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-16
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-17.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-17
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-18.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-18
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-19.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-19
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-20.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-20
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-21.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-21
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-22.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-22
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_10_permissoes.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: data_script_10_permissoes
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-23.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-23
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-24.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-24
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-25.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-25
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-26.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-26
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-27.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-27
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-28.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-28
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-29.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-29
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: data/script_11_paramtros.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: script_11_paramtros
+  -
+    changeSet:
+      author: hramos
+      changes:
+        -
+          sqlFile:
+            encoding: utf8
+            path: structure/script-30.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-30
+  - changeSet:
+      author: felipeweb
+      changes:
+        - sqlFile:
+            encoding: utf8
+            path: structure/script-31.sql
+            relativeToChangelogFile: true
+            splitStatements: true
+            stripComments: true
+      id: structure_script-31

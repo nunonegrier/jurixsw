@@ -1,0 +1,20 @@
+
+insert into jurix.tb_tipo_andamento_processo (tap_id, tap_descricao, tap_removido) values
+(nextval('jurix.seq_tipo_andamento_processo'), 'Ação Instruída', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acórdão Desfavorável', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acórdão Favorável', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acórdão Parcialmente Favorável', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Antes do Trânsito', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Após o Trânsito', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Descumprido', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo em Audiência', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Entrega Amigável', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Enviado p/ Assinatura', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Enviado p/ Protocolo', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo Homologado', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo p/ Atualização com Alvará Protocolado', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo p/ Atualização sem Alvará Protocolado', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo p/ Entrega Amigável Protocolado', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Acordo p/ Quitação com Alvará Protocolado', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Contestação juntada', false),
+(nextval('jurix.seq_tipo_andamento_processo'), 'Contestação protocolada', false);

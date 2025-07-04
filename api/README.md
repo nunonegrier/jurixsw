@@ -1,0 +1,1 @@
+-Xms384m -Xmx1024m -jar /opt/personal/jurix/production/jurix-api-1.0.1.jar --spring.config.location=classpath:/application.properties,file:/opt/personal/jurix/production/application.properties > jurix.log

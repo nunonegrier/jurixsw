@@ -1,0 +1,1 @@
+ALTER TABLE jurix.tb_processo ALTER COLUMN pr_resumo TYPE text;
